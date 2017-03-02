@@ -1,8 +1,10 @@
-# Node-js
-Node.js is a JavaScript runtime built on Chrome's V8 JavaScript engine. Node.js uses an event-driven, non-blocking I/O model that makes it lightweight and efficient. The Node.js package ecosystem, npm, is the largest ecosystem of open source libraries in the world. 
+# Node-js (DS Node js esprit 2016)
 
+This project provides an easy exemple on how to use Express routing and templating in Node js
+
+
+Node.js is a JavaScript runtime built on Chrome's V8 JavaScript engine. Node.js uses an event-driven, non-blocking I/O model that makes it lightweight and efficient. The Node.js package ecosystem, npm, is the largest ecosystem of open source libraries in the world.
 The Node.js project is supported by the Node.js Foundation. Contributions, policies, and releases are managed under an open governance model. We are also bound by a Code of Conduct.  If you need help using or installing Node.js, please use the nodejs/help issue tracker.
-
 Resources for Newcomers
 Official Resources
 
