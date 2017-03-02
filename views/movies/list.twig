@@ -1,0 +1,31 @@
+<!-- {{movies[1].titre}} -->
+{% extends "./index.html" %}
+
+
+
+{% block content %}
+<h3>Liste des films</h3>
+{% set i=0 %}
+{% for m in movies %}
+<div>
+    <h4>{{m.titre}}</h4>
+    <form action="addFovori/{{i}}" method="get" />
+    <p>
+        Pays d'origine:{{m.pays}}<br/>
+        Genre:{{m.genre}}<br/>
+        Realisateur:{{m.Realisateur}}<br/>
+        Sortie:{{m.Sortie}}<br/>
+        Durée:{{m.Duree}}<br/>
+        <!-- <input type="text" value="{{i}}" name="ind" /> -->
+        <!-- {{i}} -->
+        <a href="addFovori/{{i}}">Ajouter au favoris</a>
+        <!-- <input type="submit" value="Ajouter au favoris"/>-->
+    </p>
+    <hr/>
+</div>
+{% set i=i+1 %}
+{% endfor %}
+
+
+
+{% endblock %}

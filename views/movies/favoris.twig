@@ -1,0 +1,19 @@
+<!-- {{movies[1].titre}} -->
+{% extends "./index.html" %}
+
+
+
+{% block content %}
+<h3>Liste des films favoris</h3>
+<ul>
+{% for index,m in favoris %}
+    <li>
+        <h4>{{m.titre}} <a href="/suppFavori/{{index}}">Retirer de ma liste</a></h4>
+        
+    </li>
+    <hr/>
+{% endfor %}
+</ul>
+
+
+{% endblock %}

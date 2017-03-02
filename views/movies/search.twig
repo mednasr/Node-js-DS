@@ -1,0 +1,17 @@
+<!-- {{movies[1].titre}} -->
+{% extends "./index.html" %}
+
+
+
+{% block content %}
+<h3>Look for a movie</h3>
+<form action="searchA" method="post">
+    <input type="text" name="search" /> 
+    <input type="submit" value="Search"/>
+</form>
+
+<h3>Please wait ...</h3>
+
+
+
+{% endblock %}
